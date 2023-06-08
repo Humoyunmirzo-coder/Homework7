@@ -1,7 +1,13 @@
-﻿internal class Program
+﻿using Homework7;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+       
+        Creat creat = new Creat();
+        creat.Enter();
+
     }
+
 }
